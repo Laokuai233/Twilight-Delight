@@ -1,0 +1,28 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "tag": "forge:hydra_meat"
+    },
+    {
+      "item": "twilightforest:fiery_blood"
+    },
+    {
+      "item": "twilightforest:naga_scale"
+    },
+    {
+      "item": "farmersdelight:tomato_sauce"
+    },
+    {
+      "item": "twilightforest:torchberries"
+    }
+  ],
+  "result": {
+    "item": "twilightdelight:fiery_snakes"
+  },
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "experience": 0.5,
+  "cookingtime": 400
+}

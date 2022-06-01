@@ -1,0 +1,15 @@
+{
+  "item.twilightdelight.steeleaf_knife": "钢叶刀",
+  "item.twilightdelight.cooked_venison_rib": "鹿肉肋排",
+  "item.twilightdelight.hydra_piece": "九头蛇肉块",
+  "item.twilightdelight.fiery_knife.tooltip": "灼烧攻击者，切割物品时自动烧炼",
+  "item.twilightdelight.fiery_knife": "炽铁刀",
+  "item.twilightdelight.ironwood_knife": "铁木刀",
+  "item.twilightdelight.cooked_meef_slice": "熟牛头人肉片",
+  "item.twilightdelight.raw_meef_slice": "生牛头人肉片",
+  "itemGroup.tabtwilightdelightfood": "暮色乐事",
+  "item.twilightdelight.glowstew": "荧光煲",
+  "item.twilightdelight.fiery_snakes": "炽汁蛇宴",
+  "item.twilightdelight.raw_venison_rib": "生鹿肉肋条",
+  "item.twilightdelight.knightmetal_knife": "骑士刀"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1",
+    "2 "
+  ],
+  "key": {
+    "1": {
+      "item": "twilightforest:fiery_ingot"
+    },
+    "2": {
+      "item": "minecraft:blaze_rod"
+    }
+  },
+  "result": {
+    "item": "twilightdelight:fiery_knife"
+  }
+}
