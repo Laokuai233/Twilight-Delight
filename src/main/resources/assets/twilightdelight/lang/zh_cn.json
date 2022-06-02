@@ -1,8 +1,9 @@
 {
+  "item.twilightdelight.knightmetal_knife.tooltip": "对有护甲的目标造成额外伤害",
   "item.twilightdelight.steeleaf_knife": "钢叶刀",
   "item.twilightdelight.cooked_venison_rib": "鹿肉肋排",
   "item.twilightdelight.hydra_piece": "九头蛇肉块",
-  "item.twilightdelight.fiery_knife.tooltip": "灼烧攻击者，切割物品时自动烧炼",
+  "item.twilightdelight.fiery_knife.tooltip": "灼烧攻击目标",
   "item.twilightdelight.fiery_knife": "炽铁刀",
   "item.twilightdelight.ironwood_knife": "铁木刀",
   "item.twilightdelight.cooked_meef_slice": "熟牛头人肉片",
