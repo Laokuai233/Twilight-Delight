@@ -18,6 +18,6 @@ public class CookedmeefsliceItem extends Item {
 
 	@Override
 	public int getUseDuration(ItemStack itemstack) {
-		return 20;
+		return 24;
 	}
 }

@@ -1,7 +1,6 @@
 
 package net.twilightdelight.item;
 
-import net.twilightdelight.procedures.SteeleafknifeinventoryProcedure;
 import net.twilightdelight.init.TwilightdelightModTabs;
 
 import net.minecraftforge.common.ToolActions;
@@ -22,6 +21,9 @@ import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.core.BlockPos;
+import net.minecraft.core.NonNullList;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.enchantment.Enchantments;
 
 import com.google.common.collect.Multimap;
 import com.google.common.collect.ImmutableMultimap;
@@ -109,8 +111,11 @@ public class SteeleafknifeItem extends TieredItem {
 	}
 
 	@Override
-	public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slot, boolean selected) {
-		super.inventoryTick(itemstack, world, entity, slot, selected);
-		SteeleafknifeinventoryProcedure.execute(itemstack);
+	public void fillItemCategory(CreativeModeTab tab, NonNullList<ItemStack> list) {
+		if (allowdedIn(tab)) {
+			ItemStack istack = new ItemStack(this);
+			istack.enchant(Enchantments.MOB_LOOTING, 2);
+			list.add(istack);
+		}
 	}
 }

@@ -22,9 +22,23 @@ import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.item.Rarity;
+import net.minecraft.network.protocol.game.ClientboundAnimatePacket;
+import net.minecraft.world.item.TooltipFlag;
+import net.minecraft.network.chat.Component;
+import net.minecraft.network.chat.TranslatableComponent;
+import net.minecraft.ChatFormatting;
+import net.minecraftforge.api.distmarker.Dist;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.twilightdelight.init.TwilightdelightModItems;
+import net.minecraftforge.client.event.ModelBakeEvent;
+import net.minecraftforge.fml.ModList;
+import net.minecraftforge.client.model.ForgeModelBakery;
+import net.minecraftforge.client.model.ModelLoaderRegistry;
 
 import com.google.common.collect.Multimap;
 import com.google.common.collect.ImmutableMultimap;
+import java.util.List;
+import javax.annotation.Nullable;
 
 public class FielyknifeItem extends TieredItem {
 	public FielyknifeItem() {
@@ -38,7 +52,7 @@ public class FielyknifeItem extends TieredItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 5.5f;
+				return 7.5f;
 			}
 
 			public int getLevel() {
@@ -109,4 +123,13 @@ public class FielyknifeItem extends TieredItem {
 		FielyknifeHitProcedure.execute(entity);
 		return true;
 	}
+	@Override
+	@OnlyIn(Dist.CLIENT)
+	public void appendHoverText(ItemStack stack, @Nullable Level world, List<Component> list, TooltipFlag flags) {
+		super.appendHoverText(stack, world, list, flags);
+		list.add(new TranslatableComponent(getDescriptionId() + ".tooltip").withStyle(ChatFormatting.GRAY));
+	}
+	//public static void modelBake(ModelBakeEvent event) {
+		//fullbrightItem(event, TwilightdelightModItems.FIERY_KNIFE);
+	//}
 }
