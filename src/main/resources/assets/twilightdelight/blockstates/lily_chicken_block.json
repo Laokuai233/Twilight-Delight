@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "twilightdelight:block/lily_chicken_block"
+    },
+    "facing=east": {
+      "model": "twilightdelight:block/lily_chicken_block",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "twilightdelight:block/lily_chicken_block",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "twilightdelight:block/lily_chicken_block",
+      "y": 270
+    }
+  }
+}
