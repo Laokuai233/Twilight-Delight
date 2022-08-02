@@ -1,4 +1,4 @@
-![logo](LargeLogo.png)  
+![logo](https://github.com/Laokuai233/Twilight-Delight/blob/1.18.2/LargeLogo.png)  
 [![][ima]][download] [![ima-v]][download]   
 [![][rF]][cfF] [![][rT]][cfT] [![][issues-ima]][issues]  
 
