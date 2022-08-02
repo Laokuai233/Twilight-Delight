@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "twilightforest:fiery_shovel",
+    "twilightforest:ironwood_shovel",
+    "twilightforest:knightmetal_shovel",
+    "twilightforest:steeleaf_shovel"
+  ]
+}
