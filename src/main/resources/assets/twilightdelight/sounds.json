@@ -1,1 +1,11 @@
-
+{
+  "iron_lotus_disc": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "twilightdelight:1_6_iron_lotus",
+        "stream": true
+      }
+    ]
+  }
+}
