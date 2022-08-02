@@ -1,10 +1,12 @@
 ![logo](LargeLogo.png)  
-[![][rF]][cfF] [![][rT]][cfT] [![][issues-ima]][issues]  
+[![][ima]][download] [![][rF]][cfF] [![][rT]][cfT] [![][issues-ima]][issues]  
 
 
 # Twilight Delight
 * More delicious food in the Twilight Forest!
 
+[ima]:https://cf.way2muchnoise.eu/637200.svg?badge_style=for_the_badge
+[download]:https://www.curseforge.com/minecraft/mc-mods/twilight-delight
 [rF]:https://img.shields.io/badge/-REQUIRES%20FARMER'S%20DELIGHT-orange?style=for-the-badge&logo=curseforge
 [cfF]:https://www.curseforge.com/minecraft/mc-mods/farmers-delight
 [rT]:https://img.shields.io/badge/-REQUIRES%20THE%20TWILIGHT%20FOREST-green?style=for-the-badge&logo=curseforge
