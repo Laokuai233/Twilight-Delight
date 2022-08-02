@@ -1,0 +1,43 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="twilightdelight"
+version="1.2.1"
+displayName="Twilight Delight"
+credits="Laokuai233"
+displayURL="https://www.mcmod.cn/class/6546.html"
+logoFile="logo.png"
+authors="Laokuai233 Goulixiaoji"
+description='''
+    More delicious food in the Twilight Forest!
+'''
+
+[[dependencies.twilightdelight]]
+   modId="forge"
+   mandatory=true
+   versionRange="[40,)"
+   ordering="NONE"
+   side="BOTH"
+
+[[dependencies.twilightdelight]]
+   modId="minecraft"
+   mandatory=true
+   versionRange="[1.18.2,1.19)"
+   ordering="NONE"
+   side="BOTH"
+
+[[dependencies.twilightdelight]]
+    modId="farmersdelight"
+    mandatory=true
+    versionRange="[0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.twilightdelight]]
+    modId="twilightforest"
+    mandatory=true
+    versionRange="[0,)"
+    ordering="AFTER"
+    side="BOTH"
