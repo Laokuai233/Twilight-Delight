@@ -16,6 +16,7 @@
 More delicious food in the Twilight Forest!
 
 ## ℹ️ Issues
+The MOD is using MCr before, so we can't afford you source before the vesion of 1.2.0-Beta.
 
 ## 👦 Community
 
