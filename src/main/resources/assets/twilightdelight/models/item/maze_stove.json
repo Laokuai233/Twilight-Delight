@@ -1,5 +1,5 @@
 {
-  "parent": "twilightdelight:block/maze_stove",
+  "parent": "twilightdelight:block/maze_stove_off",
   "display": {
     "thirdperson": {
       "rotation": [
