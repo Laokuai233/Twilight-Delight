@@ -30,7 +30,7 @@ import java.util.List;
  */
 public class FieryKnife extends KnifeItem {
     public FieryKnife() {
-        super(tierGetter(), 1.0F,3.5F, new Properties().tab(TwilightDelight.TAB_TWILIGHTDELIGHT).stacksTo(1).rarity(Rarity.COMMON).fireResistant());
+        super(tierGetter(), 1.0F,3.5F, new Properties().tab(TwilightDelight.TAB_TWILIGHTDELIGHT).stacksTo(1).rarity(Rarity.UNCOMMON).fireResistant());
     }
 
     protected static Tier tierGetter(){

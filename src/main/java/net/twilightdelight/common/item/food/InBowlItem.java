@@ -41,4 +41,9 @@ public class InBowlItem extends Item {
 
         return stack;
     }
+
+    @Override
+    public ItemStack getContainerItem(ItemStack itemStack) {
+        return new ItemStack(Items.BOWL);
+    }
 }

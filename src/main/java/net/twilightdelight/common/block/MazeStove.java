@@ -23,4 +23,5 @@ public class MazeStove extends StoveBlock implements EntityBlock {
     public BlockEntity newBlockEntity(BlockPos pos, BlockState state) {
         return ((BlockEntityType) BlockTileEntityInit.MAZE_STOVE_TILEENTITY.get()).create(pos, state);
     }
+
 }

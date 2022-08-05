@@ -38,4 +38,9 @@ public class TDDrinkableItem extends DrinkableItem {
 
         return stack;
     }
+
+    @Override
+    public ItemStack getContainerItem(ItemStack itemStack) {
+        return new ItemStack(Items.GLASS_BOTTLE);
+    }
 }
