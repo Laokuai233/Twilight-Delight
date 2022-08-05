@@ -4,12 +4,12 @@ license="All Rights Reserved"
 
 [[mods]]
 modId="twilightdelight"
-version="1.2.1"
+version="1.2.0-Beta"
 displayName="Twilight Delight"
 credits="Laokuai233"
 displayURL="https://www.mcmod.cn/class/6546.html"
 logoFile="logo.png"
-authors="Laokuai233 Goulixiaoji"
+authors="Laokuai233, Goulixiaoji"
 description='''
     More delicious food in the Twilight Forest!
 '''
