@@ -1,0 +1,19 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "item": "twilightforest:torchberries"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "result": {
+    "item": "twilightdelight:torchberry_juice"
+  },
+  "container": {
+    "item": "minecraft:glass_bottle"
+  },
+  "experience": 0.35,
+  "cookingtime": 200
+}

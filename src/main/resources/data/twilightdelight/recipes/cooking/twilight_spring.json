@@ -1,0 +1,19 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "item": "twilightforest:raw_ironwood"
+    },
+    {
+      "item": "minecraft:ice"
+    }
+  ],
+  "result": {
+    "item": "twilightdelight:twilight_spring"
+  },
+  "container": {
+    "item": "minecraft:glass_bottle"
+  },
+  "experience": 0.35,
+  "cookingtime": 200
+}

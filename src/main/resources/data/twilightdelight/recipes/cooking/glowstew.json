@@ -1,0 +1,22 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "item": "minecraft:glowstone_dust"
+    },
+    {
+      "item": "twilightforest:mushgloom"
+    },
+    {
+      "item": "twilightforest:torchberries"
+    }
+  ],
+  "result": {
+    "item": "twilightdelight:glowstew"
+  },
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "experience": 0.35,
+  "cookingtime": 200
+}

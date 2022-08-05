@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "minecraft:glowstone_dust"
+    },
+    {
+      "item": "twilightforest:mushgloom"
+    },
+    {
+      "item": "twilightforest:torchberries"
+    }
+  ],
+  "result": {
+    "item": "twilightdelight:glowstew"
+  }
+}

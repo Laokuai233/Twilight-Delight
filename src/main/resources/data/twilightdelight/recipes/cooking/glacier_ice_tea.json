@@ -1,0 +1,25 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "item": "twilightforest:ice_bomb"
+    },
+    {
+      "item": "minecraft:ice"
+    },
+    {
+      "item": "twilightforest:arctic_fur"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "result": {
+    "item": "twilightdelight:glacier_ice_tea"
+  },
+  "container": {
+    "item": "minecraft:glass_bottle"
+  },
+  "experience": 0.35,
+  "cookingtime": 200
+}

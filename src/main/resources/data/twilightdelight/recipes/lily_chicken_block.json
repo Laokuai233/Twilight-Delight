@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "1",
+    "2",
+    "3"
+  ],
+  "key": {
+    "1": {
+      "item": "twilightforest:huge_lily_pad"
+    },
+    "2": {
+      "item": "farmersdelight:roast_chicken_block"
+    },
+    "3": {
+      "item": "twilightforest:huge_water_lily"
+    }
+  },
+  "result": {
+    "item": "twilightdelight:lily_chicken_block"
+  }
+}
