@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "twilightdelight:items/plate_of_fiery_snakes"
+  }
+}

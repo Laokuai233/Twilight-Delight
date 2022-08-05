@@ -1,0 +1,6 @@
+{
+  "parent": "farmersdelight:item/mug",
+  "textures": {
+    "layer0": "twilightdelight:items/thorn_rose_tea"
+  }
+}
