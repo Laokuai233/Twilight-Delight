@@ -25,3 +25,4 @@ We are still develop!
 
 ## 📷 Screenshots
 ![](https://i.mcmod.cn/editor/upload/20220710/1657416442_55994_fxqD.png)  
+![](https://i.mcmod.cn/editor/upload/20220803/1659534078_55994_EAsT.png)
