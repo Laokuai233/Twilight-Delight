@@ -84,7 +84,7 @@ public class FieryClickCuttingBoardUtil {
     }
 
     /**
-     * To get vectorwing.farmersdelight.common.block.entity.getMatchingRecipe(RecipeWrapper.class, ItemStack.class, Player.class)
+     * To get vectorwing.farmersdelight.common.block.entity.CuttingBoardBlockEntity.getMatchingRecipe(RecipeWrapper.class, ItemStack.class, Player.class)
      */
     protected static Optional<CuttingBoardRecipe> getMatchingRecipe(CuttingBoardBlockEntity blockEntity, ItemStack toolItem, Player player) {
         try {
