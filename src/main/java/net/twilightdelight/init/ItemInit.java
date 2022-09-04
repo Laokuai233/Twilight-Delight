@@ -199,8 +199,8 @@ public class ItemInit {
                 new FoodProperties.Builder()
                         .saturationMod(0.675F)
                         .nutrition(7)
-                        .effect(()-> new MobEffectInstance(MobEffects.GLOWING, 200, 1), 1)
-                        .effect(()-> new MobEffectInstance(ModEffects.COMFORT.get(), 1200, 1), 1)
+                        .effect(()-> new MobEffectInstance(MobEffects.GLOWING, 200, 0), 1)
+                        .effect(()-> new MobEffectInstance(ModEffects.COMFORT.get(), 1200, 0), 1)
                         .build()
         ));
 
@@ -211,8 +211,8 @@ public class ItemInit {
                         .saturationMod(0.7F)
                         .nutrition(12)
                         .meat()
-                        .effect(()-> new MobEffectInstance(MobEffects.GLOWING, 200, 1), 1)
-                        .effect(()-> new MobEffectInstance(ModEffects.NOURISHMENT.get(), 6000, 1), 1)
+                        .effect(()-> new MobEffectInstance(MobEffects.GLOWING, 200, 0), 1)
+                        .effect(()-> new MobEffectInstance(ModEffects.NOURISHMENT.get(), 6000, 0), 1)
                         .build()
         ));
 
@@ -233,8 +233,8 @@ public class ItemInit {
                 new FoodProperties.Builder()
                         .nutrition(10)
                         .saturationMod(0.61F)
-                        .effect(()-> new MobEffectInstance(MobEffects.HEALTH_BOOST, 600, 1), 1)
-                        .effect(()-> new MobEffectInstance(MobEffects.CONFUSION, 300, 1), 0.1F)
+                        .effect(()-> new MobEffectInstance(MobEffects.HEALTH_BOOST, 600, 0), 1)
+                        .effect(()-> new MobEffectInstance(MobEffects.CONFUSION, 300, 0), 0.1F)
                         .build()
         ));
 
@@ -244,7 +244,7 @@ public class ItemInit {
                 new FoodProperties.Builder()
                         .nutrition(10)
                         .saturationMod(0.72F)
-                        .effect(()-> new MobEffectInstance(ModEffects.NOURISHMENT.get(), 6000, 1), 1)
+                        .effect(()-> new MobEffectInstance(ModEffects.NOURISHMENT.get(), 6000, 0), 1)
                         .meat()
                         .build()
         ));
@@ -255,8 +255,8 @@ public class ItemInit {
                 new FoodProperties.Builder()
                         .nutrition(16)
                         .saturationMod(0.875F)
-                        .effect(()-> new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 6000, 1), 1)
-                        .effect(()-> new MobEffectInstance(ModEffects.NOURISHMENT.get(), 6000, 1), 1)
+                        .effect(()-> new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 6000, 0), 1)
+                        .effect(()-> new MobEffectInstance(ModEffects.NOURISHMENT.get(), 6000, 0), 1)
                         .meat()
                         .build()
         ));
@@ -267,10 +267,10 @@ public class ItemInit {
                 new FoodProperties.Builder()
                         .nutrition(20)
                         .saturationMod(1.9F)
-                        .effect(()-> new MobEffectInstance(ModEffects.NOURISHMENT.get(), 12000, 1), 1)
-                        .effect(()-> new MobEffectInstance(ModEffects.COMFORT.get(), 6000, 1), 1)
-                        .effect(()-> new MobEffectInstance(MobEffects.DAMAGE_BOOST, 6000, 1), 1)
-                        .effect(()-> new MobEffectInstance(MobEffects.REGENERATION, 400, 1), 1)
+                        .effect(()-> new MobEffectInstance(ModEffects.NOURISHMENT.get(), 12000, 0), 1)
+                        .effect(()-> new MobEffectInstance(ModEffects.COMFORT.get(), 6000, 0), 1)
+                        .effect(()-> new MobEffectInstance(MobEffects.DAMAGE_BOOST, 6000, 0), 1)
+                        .effect(()-> new MobEffectInstance(MobEffects.REGENERATION, 400, 0), 1)
                         .meat()
                         .build()
         ));
@@ -334,7 +334,7 @@ public class ItemInit {
                 new FoodProperties.Builder()
                         .saturationMod(0.0F)
                         .nutrition(0)
-                        .effect(()-> new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 600, 1), 1)
+                        .effect(()-> new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 600, 0), 1)
                         .alwaysEat()
                         .build()
         ));
