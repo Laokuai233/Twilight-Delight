@@ -1,7 +1,7 @@
 {
   "type": "create:sequenced_assembly",
   "ingredient": {
-    "item": "miinecraft:bowl"
+    "item": "minecraft:bowl"
   },
   "transitionalItem": {
     "item": "twilightforest:hydra_chop"
